@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "859053652393",
+    "project_id": "soulease-3ca8f",
+    "storage_bucket": "soulease-3ca8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859053652393:android:fa367e29714263071b6cb8",
+        "android_client_info": {
+          "package_name": "com.example.soulease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859053652393-h97p16v3lvkj1hceiqg91g6mt74rksjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soulease",
+            "certificate_hash": "56593e2c75c56cdf52be9721afc6098721f3bdfb"
+          }
+        },
+        {
+          "client_id": "859053652393-t3khep5gmraho6mlqok7ha90lvdnv48t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDo_aecEGLZ84EZdCxLhf7huH-EsoG1QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859053652393-t3khep5gmraho6mlqok7ha90lvdnv48t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ambient"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sukhasana">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@color/yellow"
+        android:text="Balasana: Child’s Pose"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/balasana" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:fontFamily="casual"
+                android:text="@string/Balasana"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--    for future scope-->
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--    android:id="@+id/button2"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:background="#00E676"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Do this" />-->
+
+</LinearLayout>
